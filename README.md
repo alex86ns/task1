@@ -1,7 +1,6 @@
 # Clone repository
 ```
-git clone git@github.com:alex86ns/task1.git \
-cd task1
+git clone git@github.com:alex86ns/task1.git && cd task1
 ```
 
 # Terraform init
