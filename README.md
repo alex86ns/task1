@@ -1,6 +1,7 @@
 # Clone repository
 ```
 git clone git@github.com:alex86ns/task1.git
+cd task1
 ```
 
 # Terraform init
@@ -15,6 +16,6 @@ export TF_VAR_frontend_port=80 \
 export TF_VAR_postgres_password="<your_pass_min_8_char>" \
 export TF_VAR_vpc_name=vortex
 
-
 terraform init 
+terraform apply
 ```
